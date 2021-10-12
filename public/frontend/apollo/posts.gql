@@ -1,0 +1,8 @@
+query ($start: Int, $limit: Int) {
+  posts(limit: $limit, start: $start) {
+    id
+    name
+    desc
+    author
+  }
+}
